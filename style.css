@@ -269,7 +269,7 @@ html {
  .contact-section{
      display: flex;
      flex-direction: column;
-     background-image:linear-gradient(rgba(13, 9, 44, 0.8),rgba(13, 9, 44, 0.8)), url(bg2.jpg);
+     background-image:linear-gradient(rgba(13, 9, 44, 0.8),rgba(13, 9, 44, 0.8)), url(bg2.png);
      background-position: top left;
      background-repeat: no-repeat;
      background-size: cover;
