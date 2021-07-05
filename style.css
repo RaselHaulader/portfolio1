@@ -282,12 +282,14 @@ html {
 .contact-row{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+   flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .contact-item{
+    text-align: center;
     padding: 20px;
+    width: 80%;
 }
  
 #contact .contact-item a{
@@ -299,7 +301,7 @@ html {
     border: 1px solid white;
     display: block;
     margin: 10px;
-    width: 400px;
+    width:100%;
     padding: 10px;
     
     color: white;
@@ -368,6 +370,27 @@ input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
 
         top:25px !important;
     }
+
+    .contact-row{
+        width: 100%;
+        display: flex;
+       flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-item{
+       
+        padding: 20px;
+        width: 40%;
+        text-align: left;
+       
+    }
+    #contact input, .textarea{
+        margin-left: 80px;
+        width:70%;
+
+    }
+
    
 }
 @media (min-width: 1200px) {
