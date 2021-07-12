@@ -15,6 +15,9 @@ html {
     background-color:navy;
     border-radius: 20px;
 }
+.header-bio{
+   padding-top: 90px;
+}
 .header-container{
      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(bg.jpg);
     background-size: cover;
@@ -282,7 +285,7 @@ html {
 .contact-row{
     width: 100%;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -296,7 +299,7 @@ html {
    color: white;
 }
    
-#contact input, .textarea{
+#contact input, .textarea, .msg-btn{
     background-color: transparent;
     border: 1px solid white;
     display: block;
@@ -339,13 +342,11 @@ input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
 
         top:25px !important;
     }
+    
+
 }
 
-@media (min-width: 768px) {
-   
-}
-
-@media (min-width: 992px) {
+@media  (min-width: 992px) {
     .header-bio-intro h1{
         font-size:3rem;
     }
@@ -374,9 +375,10 @@ input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
     .contact-row{
         width: 100%;
         display: flex;
-       flex-direction: row;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+       
     }
     .contact-item{
        
@@ -385,14 +387,10 @@ input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
         text-align: left;
        
     }
-    #contact input, .textarea{
+    #contact input, .textarea, .msg-btn{
         margin-left: 80px;
         width:70%;
 
     }
-
    
-}
-@media (min-width: 1200px) {
-    
 }
